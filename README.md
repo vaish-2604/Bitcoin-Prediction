@@ -14,7 +14,7 @@ The data set has 9 columns:
       7. Volume
 
 ## Models:
-###      1. SARIMA:
+###      1. SARIMAX:
             a. Effective for capturing lineat trends and seasonal patterns in time series data.
             b. Low computational cost.
             c. It struggles with non linear patterns which may pose a probelm due to the volatility in our data.
