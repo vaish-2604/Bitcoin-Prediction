@@ -2,14 +2,6 @@
 
 Predicting Bitcoing prices can be challenging due to its high volatility. So, I will be comparing the performance of various ML models.
 
-## Literature Survey
-
-https://library.gito.de/wp-content/uploads/2021/08/B4_manuscript_final.pdf
-https://www.ijfmr.com/papers/2023/6/10384.pdf
-https://www.granthaalayahpublication.org/ijetmr-ojms/index.php/ijetmr/article/view/IJETMR21_A05_2586/771
-https://jfin-swufe.springeropen.com/articles/10.1186/s40854-024-00643-1#:~:text=work%20are%20presented.-,Literature%20review,the%20characteristics%20of%20the%20output.
-https://www.mdpi.com/1911-8074/16/1/51
-
 ## Dataset : from 2014-09-17  to  2022-02-19
 
 The data set has 9 columns:
@@ -36,25 +28,17 @@ The data set has 9 columns:
             c. Handles non linear relationships well.
             d. Sensitive to hyperparameter and therefore prone to overfitting.
             e. Requires significant computational resources and time to train.
-###      4. XgBoost:
+###      4. Gradient Boost Regressor:
             a. Highly flexible and powerful with non linear relationships.
             b. Fast to train.
             c. Doesn’t inherently handle time dependencies, so you must manually add lagged features and other temporal indicators.
             d. Can overfit if the dataset is noisy or the model is overly complex.
-###      5. Random Forest:
+###      5. Random Forest Regressor:
             a. Works well with a mix of features and is generally robust to overfitting on complex datasets.
             b. Performs well with non-linear relationships and noisy data, making it adaptable to price prediction.
             c. May struggle with high volatility, as it averages over predictions, potentially missing sharp price movements.
             d. More prone to underfitting than boosting algorithms in complex scenarios.
-###      6. Transformer models:
-            a. Excellent for long-range dependencies in time series data due to its self-attention mechanism.
-            b. Highly flexible, as it can handle multiple input features without extensive preprocessing.
-            c. Can capture both trend and complex patterns in a single framework.
-            d. Very computationally demanding, requiring more memory and time compared to LSTM or traditional models.
-            e. Complex to set up and tune effectively, as it requires more intricate architecture and parameter choices.
-###      7. Hybrid Models: 
-            a. Combines the strengths of linear and non-linear models, where SARIMA captures trend and seasonality, and the ML model (like XGBoost or Random Forest) captures the residuals or complex patterns.
-            b. Computationally more intensive, as it involves training two models and combining predictions.
+
 
 ## Enhancing Dataset
 
