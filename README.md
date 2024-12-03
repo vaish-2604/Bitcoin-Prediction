@@ -2,6 +2,14 @@
 
 Predicting Bitcoing prices can be challenging due to its high volatility. So, I will be comparing the performance of various ML models.
 
+## Literature Survey
+
+https://library.gito.de/wp-content/uploads/2021/08/B4_manuscript_final.pdf
+https://www.ijfmr.com/papers/2023/6/10384.pdf
+https://www.granthaalayahpublication.org/ijetmr-ojms/index.php/ijetmr/article/view/IJETMR21_A05_2586/771
+https://jfin-swufe.springeropen.com/articles/10.1186/s40854-024-00643-1#:~:text=work%20are%20presented.-,Literature%20review,the%20characteristics%20of%20the%20output.
+https://www.mdpi.com/1911-8074/16/1/51
+
 ## Dataset : from 2014-09-17  to  2022-02-19
 
 The data set has 9 columns:
